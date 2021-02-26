@@ -14,11 +14,20 @@ const fetchProductsSuccess = products => ({
 //  };
 //};
 
+function replacer(key, value) {
+  // Filtering out properties
+  if (key === 'id') {
+    return value.toString();
+  }
+  return value;
+}
+
 export const fetchProducts = products => {
   return dispatch => {
-    axios.get("http://localhost:5000/products")
+    axios.get("http://localhost:8080/products")
     .then(({data}) => { 
-      dispatch(fetchProductsSuccess(data));
+      const dataS = JSON.stringify(data, replacer)
+      dispatch(fetchProductsSuccess(JSON.parse(dataS)));
     });
 };
 }

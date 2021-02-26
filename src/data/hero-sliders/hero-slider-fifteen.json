@@ -2,14 +2,14 @@
   {
     "id": 1,
     "title": "Enjoy This Offer Today",
-    "subtitle": "New Collection <br>Sale 40%",
+    "subtitle": "New from Samsung",
     "image": "/assets/img/slider/slider-12.jpg",
     "url": "/shop-grid-standard"
   },
   {
     "id": 2,
     "title": "Enjoy This Offer Today",
-    "subtitle": "New Collection <br>Sale 20%",
+    "subtitle": "New from Samsung",
     "image": "/assets/img/slider/slider-12-2.jpg",
     "url": "/shop-grid-standard"
   }

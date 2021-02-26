@@ -10,6 +10,7 @@ import ProductDescriptionTab from "../../wrappers/product/ProductDescriptionTab"
 import ProductImageDescription from "../../wrappers/product/ProductImageDescription";
 
 const Product = ({ location, product }) => {
+
   const { pathname } = location;
 
   return (
@@ -38,17 +39,7 @@ const Product = ({ location, product }) => {
           product={product}
         />
 
-        {/* product description tab */}
-        <ProductDescriptionTab
-          spaceBottomClass="pb-90"
-          productFullDesc={product.fullDescription}
-        />
 
-        {/* related product slider */}
-        <RelatedProductSlider
-          spaceBottomClass="pb-95"
-          category={product.category[0]}
-        />
       </LayoutOne>
     </Fragment>
   );

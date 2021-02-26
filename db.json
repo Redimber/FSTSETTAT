@@ -1,0 +1,115 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Galaxy 10",
+      "shortDescription": "fitco 2020",
+      "price": 1999,
+      "stock": 3,
+      "status": true,
+      "image": [
+        "/assets/img/product/fashion/1.jpg"
+      ],
+      "category": [
+        "Galaxy"
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "firstName": "Ibrahim",
+      "lastName": "El Mountasser",
+      "companyName": "Test",
+      "country": "Morocco",
+      "adresse": "Rue kdsajfsf asf ",
+      "city": "Laayoune",
+      "phone": "0612910711",
+      "mail": "ibrahimelmountasser@hotmail.com",
+      "notes": "dklasjhfklsdfja",
+      "products": [
+        {
+          "id": "2",
+          "name": "Iphone X",
+          "price": 1343.93
+        }
+      ],
+      "totalPrice": 1343.93,
+      "id": 1
+    },
+    {
+      "firstName": "dfkjsg",
+      "lastName": "dsl;gk",
+      "companyName": "fjsk;lgj",
+      "country": "Morocco",
+      "adresse": "asfasfd",
+      "city": "asdfasdf",
+      "phone": "asdfasdf",
+      "mail": "asdfasdf",
+      "notes": "asdfasfas",
+      "products": [
+        {
+          "id": "2",
+          "name": "Iphone X",
+          "price": 1343.93
+        },
+        {
+          "id": "1",
+          "name": "Galaxy 10",
+          "price": 1999
+        }
+      ],
+      "totalPrice": 3342.9300000000003,
+      "id": 2
+    },
+    {
+      "firstName": "Ibrahim",
+      "lastName": "Ejsafkl",
+      "companyName": "jklasfj",
+      "country": "Morocco",
+      "adresse": "settat",
+      "city": "laayoune",
+      "phone": "0612910711",
+      "mail": "ibrahimelmountasser@hotmail.com",
+      "notes": "jasklfjiasf",
+      "products": [
+        {
+          "id": "1",
+          "name": "Galaxy 10",
+          "price": 1999
+        },
+        {
+          "id": "2",
+          "name": "Iphone X",
+          "price": 1343.93
+        }
+      ],
+      "totalPrice": 3342.9300000000003,
+      "id": 3
+    },
+    {
+      "firstName": "Ibrahim",
+      "lastName": "El Mountasser",
+      "companyName": "Test",
+      "country": "Morocco",
+      "adresse": "Rue kdsajfsf asf ",
+      "city": "Laayoune",
+      "phone": "0612910711",
+      "mail": "ibrahimelmountasser@hotmail.com",
+      "notes": "sdafasdf",
+      "products": [
+        {
+          "id": "1",
+          "name": "Galaxy 10",
+          "price": 1999
+        },
+        {
+          "id": "2",
+          "name": "Galaxy 10",
+          "price": 1999
+        }
+      ],
+      "totalPrice": 3998,
+      "id": 4
+    }
+  ]
+}

@@ -18,7 +18,7 @@ const HomeFashionSeven = () => {
         <HeroSliderFifteen />
         {/* tab product */}
         <TabProductEight
-          category="fashion"
+          category="Galaxy"
           spaceBottomClass="pb-100"
           spaceTopClass="pt-100"
         />
